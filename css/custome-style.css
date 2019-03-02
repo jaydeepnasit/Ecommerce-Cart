@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header-text{
+    text-transform: uppercase;
+    font-variant-caps: petite-caps;
+    text-align: center;
+    color: white !important;
+    text-shadow: 0px 0px 3px black;
+    font-size: 22px;
+    font-weight: 700;
+}
+.flex-box-set{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.box-card-set{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+.box-image-set{
+    width: 50%;
+    height: 50%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.box-image-set-2{
+    width: 100px;
+    height: 200px;
+}
+.v-set{
+    vertical-align: middle !important;
+    text-align: center;
+}
